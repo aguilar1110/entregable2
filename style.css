@@ -1,0 +1,161 @@
+
+body {
+    font-family: Times New Roman, serif;
+    background-color: #fff;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px; /* Espacio para el nav fijo (ajusta según su altura) */
+}
+
+header {
+    background-color: #EADDFE;
+    padding: 1px 0; 
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    background-color:  #EADDFE;
+    font-size: 250%;
+    font-family: Times New Roman, serif;
+    color: rgb(0, 0, 0);
+    padding: 1px 0; 
+
+}
+
+
+nav {
+    background-color: #ac8ac2;
+    overflow: hidden;
+    position: fixed; /* Fija el nav en la parte superior */
+    top: 0; /* Posición en la parte superior */
+    left: 0; /* Alineado al lado izquierdo */
+    width: 100%; /* Ocupa todo el ancho */
+    z-index: 1000; /* Asegura que esté sobre otros elementos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para darle efecto */
+}
+nav a {
+    float: left;
+    display: block;
+    color: rgb(51, 52, 53);
+    padding: 14px 41px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav a:hover {
+    background-color: #b59ee4;
+}
+
+
+#sobremi, #fotos, #redsocial, #pasatiempos, #pendientes, #horario, #formulario {
+    font-size: 25px;
+    font-family: Times New Roman, serif;
+    background-color: #feffbc;
+    padding: 15px;
+    margin: 0px 0; 
+}
+
+
+.texto, p {
+    font-size: 20px;
+    text-align: justify;
+    background-color: #cfd9e6;
+    padding: 14px;
+    margin: 0px 0; 
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    font-size: 25px;
+    background-color: #acc0db;
+    padding: 15px;
+}
+
+    /* Imágenes */
+img {
+    width: 170px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+ul {
+    background-color:  #acc0db;
+    padding: 30px;
+    margin: 0px 0; 
+    font-size: 20px;
+}
+
+ol{
+    background-color:  #acc0db;
+    padding: 30px;
+    margin: 0px 0; 
+    font-size: 20px;
+}
+.tabla{
+    background-color:  #acc0db;
+    padding: 14px;
+    margin: 0px 0; 
+}
+table{
+    border-collapse: collapse;
+    margin: 50px auto; /* Centra la tabla horizontalmente y agrega espacio arriba */
+    width: 100%; /* Ajusta el ancho de la tabla */
+    
+}
+table, th, td {
+    border: 1px solid black; /* Bordes de la tabla */    
+    }
+
+th {
+    background-color: #ffc8ba; /* Fondo del encabezado */
+    color: rgb(0, 0, 0); /* Texto blanco en el encabezado */
+    padding: 8px; /* Espaciado interno */
+    text-align: center; /* Centrar el texto en el encabezado */
+    height: 5px;
+    font-size: 20px;
+}
+
+td {
+    background-color: #ede0f7; /* Fondo de las celdas */
+    color: black; /* Color del texto */
+    padding: 7px; /* Espaciado interno */
+    text-align: left; /* Alinear el texto a la izquierda */
+    font-size: 20px;
+    }
+.formulario{
+    background-color: #ede0f7; 
+    padding: 40px; /* Espaciado interno */
+    width: 500px; /* Ancho del formulario */
+    text-align: center; /* Opcional: centra el contenido del formulario */
+    font-size: 20px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+input {
+        width: 100%; /* Hace que los campos sean tan anchos como el formulario */
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 18px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+   }
+
+.fondo{
+    background-color:  #acc0db; /* Fondo del formulario */
+
+}
+
+footer{
+    font-size: 20px;
+    background-color:   #feffbc;
+
+}
